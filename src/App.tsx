@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-      <Container className='d-flex align-items-center mt-5'>
+      <Container className='d-flex align-items-center mt-1'>
         <img
           src='/mattleung/images/profilepic.jpg'
           alt='matt gor'
@@ -80,7 +80,7 @@ function App() {
             <Input
               id='input'
               type='textarea'
-              style={{ height: '18em' }}
+              style={{ height: '30vh' }}
               onChange={(e) => handleMatt(e.target.value)}
             />
           </Col>
@@ -88,7 +88,7 @@ function App() {
             <Input
               id='output'
               type='textarea'
-              style={{ height: '18em' }}
+              style={{ height: '30vh' }}
               readOnly
               value={text}
             />
