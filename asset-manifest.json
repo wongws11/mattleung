@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wongws11.github.io/mattleung/static/css/main.12db4f5d.css",
+    "main.js": "/wongws11.github.io/mattleung/static/js/main.ea305090.js",
+    "index.html": "/wongws11.github.io/mattleung/index.html",
+    "main.12db4f5d.css.map": "/wongws11.github.io/mattleung/static/css/main.12db4f5d.css.map",
+    "main.ea305090.js.map": "/wongws11.github.io/mattleung/static/js/main.ea305090.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12db4f5d.css",
+    "static/js/main.ea305090.js"
+  ]
+}
