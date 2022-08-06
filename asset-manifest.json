@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "mattleung/static/css/main.12db4f5d.css",
-    "main.js": "mattleung/static/js/main.ea305090.js",
-    "index.html": "mattleung/index.html",
-    "main.12db4f5d.css.map": "mattleung/static/css/main.12db4f5d.css.map",
-    "main.ea305090.js.map": "mattleung/static/js/main.ea305090.js.map"
+    "main.css": "/mattleung/static/css/main.12db4f5d.css",
+    "main.js": "/mattleung/static/js/main.f5dc8791.js",
+    "index.html": "/mattleung/index.html",
+    "main.12db4f5d.css.map": "/mattleung/static/css/main.12db4f5d.css.map",
+    "main.f5dc8791.js.map": "/mattleung/static/js/main.f5dc8791.js.map"
   },
   "entrypoints": [
     "static/css/main.12db4f5d.css",
-    "static/js/main.ea305090.js"
+    "static/js/main.f5dc8791.js"
   ]
 }
