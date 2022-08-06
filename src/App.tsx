@@ -13,7 +13,7 @@ function App() {
     let newText = inputValue;
     if (mattConvert) {
       for (const [key, value] of Object.entries(mattMap)) {
-        newText = newText.replace(key, value);
+        newText = newText.replaceAll(key, value);
       }
     }
     if (simpConvert) {
