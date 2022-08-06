@@ -31,7 +31,7 @@ function App() {
     <>
       <Container className='d-flex align-items-center mt-5'>
         <img
-          src='/images/profilepic.jpg'
+          src='/mattleung/images/profilepic.jpg'
           alt='matt gor'
           className='border border-dark rounded-circle pe-none'
           style={{ width: '100px' }}
