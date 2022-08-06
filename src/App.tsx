@@ -22,10 +22,15 @@ function App() {
     setText(newText);
   };
 
+  
   useEffect(() => {
     const inputElement = document.getElementById('input') as HTMLInputElement;
     handleMatt(inputElement.value);
   }, [mattConvert, simpConvert]);
+
+  useEffect(() => {
+    document.getElementById('input')?.focus();
+  }, []);
 
   return (
     <>
@@ -80,7 +85,8 @@ function App() {
             <Input
               id='input'
               type='textarea'
-              style={{ height: '30vh' }}
+              placeholder='Input here 喺度打字'
+              style={{ height: '25vh' }}
               onChange={(e) => handleMatt(e.target.value)}
             />
           </Col>
@@ -88,7 +94,7 @@ function App() {
             <Input
               id='output'
               type='textarea'
-              style={{ height: '30vh' }}
+              style={{ height: '25vh' }}
               readOnly
               value={text}
             />
