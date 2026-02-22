@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import { mattMap } from './mattMap';
 import { Container, Row, Col, Input, Label, Button } from 'reactstrap';
@@ -25,7 +25,10 @@ function App() {
   
   useEffect(() => {
     const inputElement = document.getElementById('input') as HTMLInputElement;
-    handleMatt(inputElement.value);
+    if (inputElement) {
+      handleMatt(inputElement.value);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mattConvert, simpConvert]);
 
   useEffect(() => {
@@ -57,7 +60,7 @@ function App() {
                 id='matt-convert'
                 type='checkbox'
                 checked={mattConvert}
-                onChange={(e) => setMattConvert(!mattConvert)}
+                onChange={() => setMattConvert(!mattConvert)}
               />
               <span className='slider round'></span>
             </Label>
